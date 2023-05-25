@@ -1,0 +1,142 @@
+
+@media (max-width: 1150px) {
+    .services__items {
+            display: block;
+    }
+    .services__item {
+            max-width: 80%;
+            margin: 30px auto;
+            min-height: 333px;
+    }
+    .services__feedback{
+        max-width: 80%;
+            margin: 30px auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    .footer__inner {
+            display: block;
+    }
+    .footer__info {
+            text-align: center;
+            margin: 0 auto 30px;
+            max-width: 500px;
+    }
+    .footer__map {
+            max-width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .services__title-box {
+            padding-left: 0;
+            text-align: center;
+            margin: 0 auto 30px;
+    }
+    .services__btn{
+            text-align: center;
+    }
+    .main__img img{
+        width: 300px;
+        height: 170px;
+    }
+    .main__menu-title{
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        height: auto;
+    }
+    .main__menu--bottom{
+        position: relative;
+        bottom: 0;
+    }
+    .main__menu--bottom .main__menu-list{
+        bottom: 0px;
+    }
+    .main__menu--top .main__menu-list{
+        top: 0px;
+    }
+    
+}
+@media (max-width: 750px){
+    .main__video-wrapper{
+       width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .header__contacts {
+        text-align: center;
+    }
+    .footer__info {
+        display: block;
+    }
+   
+    
+}
+
+@media (max-width: 600px) {
+    .services__items {
+        display: block;
+    }
+    .services__item {
+        max-width: 100%;
+        margin: 30px auto;
+        min-height: 375px;
+    }
+    .main__img img{
+        width: 100%;
+        height: auto;
+    }
+    .services__feedback{
+        max-width: 100%;
+    }
+    .main__text {
+        padding: 120px 20px 50px;
+    }
+}
+
+
+
+
+
+
+    @media (max-width: 900px){
+        .main__menu{
+            display: block;
+        }
+        .main__menu-list{
+            position: relative;
+            top: 0;
+        }
+        
+        .main__list-item{
+            padding: 0;
+        }
+        .main__secondlist{
+            position: relative;
+            left: 0;
+            width: 100%;
+            padding: 0;
+        }
+        .main__menu-item:last-child .main__secondlist{
+            left: 0;
+        }
+        .main__list-title{
+            padding: 10px;
+        }
+        .main__menu-item::after{
+            content: url(../img/arrow_down.svg);
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            transition: all 0.5s;
+        }
+        .main__menu-item--active::after{
+            transform: rotate(180deg);
+        }
+    }

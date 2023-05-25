@@ -1,0 +1,48 @@
+@media (max-width: 1160px) {
+    .main__card,.img-fluid{
+     
+        width: 800px;
+        height: 400px;
+       
+      }
+}
+
+@media (max-width: 1050px) {
+    .main__filses{
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 837px) {
+    .main__card,.img-fluid{
+     
+        width: 700px;
+        height: 350px;
+       
+      }
+   
+    
+}
+
+@media (max-width: 715px) {
+    .main__card, .img-fluid {
+        width: 550px;
+        height: 300px;
+    }
+}
+@media (max-width: 570px) {
+    .main__card, .img-fluid {
+        width: 450px;
+        height: 250px;
+    }
+}
+@media (max-width: 460px){
+.main__card, .img-fluid {
+    width: 350px;
+    height: 200px;
+}
+}

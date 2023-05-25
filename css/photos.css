@@ -1,0 +1,13 @@
+.main__inner{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main__img{
+    padding: 3px;
+}
+.main__img img{
+    width: 370px;
+    height: 200px;
+}
